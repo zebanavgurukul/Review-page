@@ -1,0 +1,114 @@
+.main-container {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial-box {
+    border-bottom: 1px solid grey;
+    padding: 1rem 0;
+}
+
+.profile h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.profile p {
+    margin: 12px 0;
+}
+
+.star-container {
+    cursor: pointer;
+}
+
+.star {
+    font-size: 36px;
+    color: gray;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+.star.active {
+    color: #f9d71c;
+}
+
+/* 2 star */
+.star-container_1 {
+    cursor: pointer;
+}
+
+.star_1 {
+    font-size: 36px;
+    color: gray;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+.star_1.active1 {
+    color: #f9d71c;
+}
+
+.icon-container {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.icon_sb {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    fill: gray;
+    cursor: pointer;
+    transition: fill 0.3s;
+}
+
+.unlikeIcon {
+    width: 50px;
+    height: 50px;
+    fill: gray;
+    cursor: pointer;
+    transition: fill 0.3s;
+    transform: rotate(180deg);
+}
+
+.icon.active {
+    fill: rgb(3, 155, 3);
+}
+
+.unlikeIcon.active {
+    fill: rgb(3, 155, 3);
+}
+
+.onclick {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: rgb(219, 221, 219);
+    font-weight: bold;
+}
+
+.onclick {
+    text-decoration: none;
+    color: #0f1010;
+}
+
+.special {
+    background-color: rgb(37, 211, 37);
+}
